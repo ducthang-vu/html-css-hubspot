@@ -253,6 +253,7 @@ main {
 
 .earn-grow-table {
   position: relative;
+  padding: 0;
 }
 
 .earn-grow-table .column4 {
