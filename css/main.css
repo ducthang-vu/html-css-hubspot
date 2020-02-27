@@ -61,6 +61,10 @@ h1 {
   text-align: right
 }
 
+.btn-box {
+  text-align: center;
+}
+
 .btn {
   background-color: darkorange;
   color: white;
@@ -166,6 +170,10 @@ main {
 
 
 /* INFO LAST  */
+#info-last {
+  padding-bottom: 40px;
+}
+
 .column3.left {
   text-align: left;
   background-color: red;
@@ -186,7 +194,7 @@ main {
   display: inline-block;
   width: 90%;
   background-color: white;
-  padding: 0 35px;
+  padding: 0 35px 35px 35px;
 }
 
 .head-column {
@@ -206,6 +214,34 @@ main {
   padding-bottom: 25px;
 }
 
-.botto-column{
+.head-column p{
   text-align: left;
+}
+
+.bottom-column{
+  text-align: left;
+  padding: 20px 0;
+}
+
+.bottom-column h4 {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.bottom-column i {
+  color: darkorange;
+}
+
+.bottom-column li{
+  list-style-type: none;
+}
+
+.inside-container a {
+  padding-bottom: 35px;
+}
+
+
+/* EARN AND GROW */
+#earn-grow {
+  background: linear-gradient(to right, red , yellow);
 }
