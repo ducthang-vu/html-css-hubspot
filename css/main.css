@@ -163,3 +163,49 @@ main {
 #column75percent i {
   color: darkorange;
 }
+
+
+/* INFO LAST  */
+.column3.left {
+  text-align: left;
+  background-color: red;
+}
+
+.column3.centre {
+  text-align: center;
+  background-color: black;
+}
+
+.column3.right {
+  text-align: right;
+  background-color: gold;
+}
+
+
+.inside-container {
+  display: inline-block;
+  width: 90%;
+  background-color: white;
+  padding: 0 35px;
+}
+
+.head-column {
+  text-align: center;
+  border-bottom: 2px solid gray;
+  height: 350px;;
+}
+
+.head-column img {
+  display: inline-block;
+  width: 140px;
+  height: 160px;
+  padding: 25px 0;
+}
+
+.head-column h3{
+  padding-bottom: 25px;
+}
+
+.botto-column{
+  text-align: left;
+}
