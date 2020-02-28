@@ -135,7 +135,28 @@ li{
   color: #00C1C2;
 }
 
+    /* header: MAIN-NAV */
+#main-nav {
+  padding: 15px 0;
+}
 
+#main-nav .column2.right {
+  height: 34px;
+  padding: 9px 0;
+}
+
+.main-nav-block {
+  margin-left: 18px;
+}
+
+.main-nav-block * { /* A different font should be chosen enaglin bolder */
+  font-weight: 600;
+}
+
+.main-nav-block span {
+  display: inline-block;
+  margin-right: 10px;
+}
 
     /* header: JUMBOTRON*/
 .jumbotron {
