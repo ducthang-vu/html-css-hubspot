@@ -27,6 +27,7 @@ li{
   list-style-type: none;
 }
 
+
 /* UTILITIES  */
 
 .container {
@@ -87,7 +88,8 @@ li{
   font-weight: bolder;
 }
 .btn-small {
-  padding: 5px;
+  padding: 12px 10px;
+  border-radius: 8px
 }
 
 .fas.fa-check-circle {
@@ -97,14 +99,36 @@ li{
 
 
 /* HEADER */
+    /* header: TOP MENU */
 #top-menu {
   background: #f5f8fa;
+  border-bottom: 1px solid black;
 }
 
-#btn-login{
+    /* header: top menu: LEFT COLUMN */
+
+#top-menu .column2.left {
+  padding: 14px 0;
+}
+
+#first-block {
+  padding-right: 30px;
+  border-right: 1px solid black;
+}
+
+#second-block {
+  padding-left: 30px;
+}
+
+    /* header: top menu: RIGHT COLUMN */
+#top-menu .column2.right * {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#btn-login {
   border: 1px solid orange;
   color: orange;
-  border-radius: 8px
 }
 
 #search-icon{
@@ -112,8 +136,8 @@ li{
 }
 
 
-/* HEADER
-/     Jumbotron*/
+
+    /* header: JUMBOTRON*/
 .jumbotron {
   background-image: url(../img/jumbotron.png);
   background-size: 100% 100%;
