@@ -362,12 +362,12 @@ main {
 }
 
     /* Learn and grow: FIRST CONTAINER*/
-#learn-grow .first h2 {
+#learn-grow .first-cont h2 {
   padding: 0 5%;
   margin: 25px 0;
 }
 
-#learn-grow .first p {
+#learn-grow .first-cont p {
   margin-bottom: 35px;
 }
 
@@ -407,7 +407,7 @@ main {
 }
 
 .bottom-column4 * {
-  padding: 5px 0 0 0;
+  padding: 5px 0 15px 0;
 }
 
 
