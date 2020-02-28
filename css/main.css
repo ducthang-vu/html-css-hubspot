@@ -136,8 +136,12 @@ main {
   /* First Container */
 
 #first-main {
-  text-align: center;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
   padding-bottom: 45px;
+  width: 70%;
+  text-align: center;
 }
 
 #first-main img {
