@@ -83,7 +83,7 @@ li{
 }
 
 .btn {
-  background-color: darkorange;
+  background-color: #FF7A59;
   color: white;
   border-radius: 8px;
 }
@@ -100,7 +100,7 @@ li{
 
 .fas.fa-check-circle {
   margin-right: 10px;
-  color: darkorange;
+  color: #FF7A59;
 }
 
 .small-text {
@@ -177,14 +177,16 @@ li{
     /* header: JUMBOTRON*/
 .jumbotron {
   background-image: url(../img/jumbotron.png);
-  background-size: 100% 100%;
+  background-size: auto;
   background-repeat: no-repeat;
   padding-top: 75px;
-  padding-bottom: 225px;
 }
 
+.jumbotron .column2 {
+  height: 507px;
+}
 
-.jumbotron * {
+.jumbotron .column2 * {
   margin-bottom: 30px;
 }
 
@@ -193,13 +195,21 @@ li{
   line-height: 200%;
 }
 
+    /* header: Bottom header*/
+#bottom-header{
+  height: 80px;
+  border-top: 4px solid #404040;
+  border-bottom: 4px solid #404040;
+  background-color: #00cca3
+}
+
 /* MAIN */
 main {
   background-color: #F0F8FF;
   padding-bottom: 30px;
 }
 
-  /* First Container */
+/* First Container */
 #first-main {
   position: relative;
   left: 50%;
@@ -257,6 +267,7 @@ main {
 
 #hub-spot p {
   width: 85%;
+  margin-bottom: 25px;
 }
 
 #lesser-title {
