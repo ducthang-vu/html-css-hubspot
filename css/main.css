@@ -90,6 +90,11 @@ li{
   padding: 5px;
 }
 
+.fas.fa-check-circle {
+  margin-right: 10px;
+  color: darkorange;
+}
+
 
 /* HEADER */
 #top-menu {
@@ -158,7 +163,7 @@ main {
   margin-bottom: 50px;
 }
 
-    /* Left column (25%) */
+    /* Hub-spot: LELFT COLUMN (33%) */
 #hub-spot img{
   display: inline-block;
   width: 130px;
@@ -166,11 +171,11 @@ main {
   margin-bottom: 10px;
 }
 
-      /* Right column (75%) */
-.column75percent i {
-  color: darkorange;
+      /* Hub-spot: RIGHT COLUMN (67%) */
+#hub-spot li {
+  display: inline-block;
+  margin-right: 20px;
 }
-
 
 /* INFO LAST  */
 #info-last {
@@ -228,10 +233,6 @@ main {
 .bottom-column h4 {
   text-align: center;
   padding-bottom: 15px;
-}
-
-.bottom-column i {
-  color: darkorange;
 }
 
 .inside-container a {
