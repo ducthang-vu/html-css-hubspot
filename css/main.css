@@ -112,8 +112,12 @@ li{
 /* HEADER */
     /* header: TOP MENU */
 #top-menu {
+  position: fixed;
+  width: 100%;
+  top: 0;
   background: #f5f8fa;
   border-bottom: 1px solid black;
+  z-index: 1;
 }
 
     /* header: top menu: LEFT COLUMN */
@@ -149,7 +153,7 @@ li{
 
     /* header: MAIN-NAV */
 #main-nav {
-  padding: 12px 0;
+  padding: 73px 0 12px 0;
 }
 
 #main-nav .column2.right {
@@ -161,7 +165,7 @@ li{
   margin-left: 18px;
 }
 
-.main-nav-block * { /* A different font should be chosen enaglin bolder */
+.main-nav-block * { /* A different font should be chosen enabling bolder */
   font-weight: 600;
 }
 
