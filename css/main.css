@@ -97,6 +97,11 @@ li{
   color: darkorange;
 }
 
+.small-text {
+  display: block;
+  font-size: 12px;
+}
+
 
 /* HEADER */
     /* header: TOP MENU */
