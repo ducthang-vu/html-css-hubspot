@@ -11,6 +11,7 @@ body {
   font-size: 16px; /* DEFAULT */
   color: rgba(0, 0, 0, 1); /* DEFAULT */
   margin: auto;
+  background: white;
 }
 
 a {
@@ -103,10 +104,6 @@ li{
 
 #search-icon{
   color: #00C1C2;
-}
-
-.main-nav{
-  background: white;
 }
 
 
@@ -280,10 +277,6 @@ main {
 
 
 /* LAST PART OF MAIN */
-#last-main {
-  background: white;
-}
-
 #number {
   font-weight: bolder;
 }
