@@ -11,7 +11,6 @@ body {
   font-size: 16px; /* DEFAULT */
   color: rgba(0, 0, 0, 1); /* DEFAULT */
   margin: auto;
-  background: blue; /*testing*/
 }
 
 a {
@@ -22,6 +21,11 @@ a {
 h1 {
   font-size: 55px;
 }
+
+li{
+  list-style-type: none;
+}
+
 /* UTILITIES  */
 
 .container {
@@ -58,8 +62,13 @@ h1 {
   text-align: center;
 }
 
+.column67percent {
+  float: left;
+  width: calc(2* 100% / 3)
+}
+
 .right-align {
-  text-align: right
+  text-align: right;
 }
 
 .btn-box {
@@ -124,6 +133,7 @@ h1 {
 /* MAIN */
 main {
   background-color: #F0F8FF;
+  padding-bottom: 30px;
 }
 
   /* First Container */
@@ -156,12 +166,7 @@ main {
 }
 
       /* Right column (75%) */
-#column75percent {
-  float: left;
-  width: calc(3* 100% / 4)
-}
-
-#column75percent i {
+.column75percent i {
   color: darkorange;
 }
 
@@ -229,10 +234,6 @@ main {
   color: darkorange;
 }
 
-.bottom-column li{
-  list-style-type: none;
-}
-
 .inside-container a {
   padding-bottom: 35px;
 }
@@ -241,6 +242,7 @@ main {
 /* EARN AND GROW */
 #earn-grow {
   background: linear-gradient(45deg, #00a4bd, #00bda5);
+  margin-bottom: 50px;
 }
 
 #earn-grow.container {
@@ -273,4 +275,75 @@ main {
 
 .bottom-column4 {
   height: calc(2* 100% / 3);
+  color: white;
+}
+
+
+/* LAST PART OF MAIN */
+#last-main {
+  background: white;
+}
+
+#number {
+  font-weight: bolder;
+}
+
+.column67percent .logos-row {
+  text-align: right;
+  padding: 0 55px 25px 0;
+}
+
+.logos-row img {
+  display: inline-block;
+  width: 100px;
+  height: 25px;
+  margin-left: 45px;
+}
+
+#img-woman {
+  width: 290px;
+  height: 325px;
+}
+
+
+/* FOOTER */
+footer {
+  background: #33475b;
+  color: white;
+  padding-bottom: 18px;
+}
+
+#support-btn {
+  margin: 5px 0;
+  background: lightgrey;
+  color: #33475b;
+}
+
+.social-media-row {
+  padding: 5;
+}
+
+.social-media-row * {
+  padding: 10px;
+}
+
+.lang-bar{
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+
+.lang-bar a {
+  display: inline-block;
+  padding: 2px 10px;
+  color: white;
+}
+
+.copyright * {
+  display: block;
+  padding-bottom: 15px;
+}
+
+.legal a {
+  color: white;
+  padding-left: 15px;
 }
