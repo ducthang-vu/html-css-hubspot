@@ -89,7 +89,7 @@ li{
 }
 
 .btn-big {
-  padding: 27px 37px;
+  padding: 23px 32px;
   font-weight: bolder;
 }
 .btn-small {
@@ -323,18 +323,13 @@ main {
 
 .bottom-column{
   text-align: left;
-  padding: 25px 0;
+  padding: 25px 0 35px 0;
 }
 
 .bottom-column h4 {
   text-align: center;
   padding-bottom: 15px;
 }
-
-.inside-container a {
-  padding-bottom: 35px;
-}
-
 
 /* LEARN AND GROW */
 #learn-grow {
