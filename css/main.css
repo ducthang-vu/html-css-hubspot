@@ -116,51 +116,55 @@ li{
 
 
 /* HEADER */
-    /* header: TOP MENU */
+/* header: TOP MENU */
 #top-menu {
-  position: fixed;
-  width: 100%;
-  top: 0;
-  background: #f5f8fa;
-  border-bottom: 1px solid black;
-  z-index: 1;
+position: fixed;
+width: 100%;
+height: 60px;
+top: 0;
+background: #f5f8fa;
+border-bottom: 1px solid black;
+z-index: 1;
 }
 
-    /* header: top menu: LEFT COLUMN */
+
+/* header: top menu: LEFT COLUMN */
 
 #top-menu .column2.left {
-  height: 30px;
-  padding-top: 6px;
+padding: 0;
+height: 20px;
+top: 50%;
+transform: translateY(26%);
 }
 
 #first-block {
-  padding-right: 30px;
-  border-right: 1px solid black;
+padding-right: 30px;
+border-right: 1px solid black;
 }
 
 #second-block {
-  padding-left: 30px;
+padding-left: 30px;
 }
 
-    /* header: top menu: RIGHT COLUMN */
+/* header: top menu: RIGHT COLUMN */
 #top-menu .column2.right * {
-  display: inline-block;
-  margin-left: 20px;
+margin-left: 20px;
 }
 
 #btn-login {
-  border: 1px solid#FF7A59;
-  color: #FF7A59;
+border: 1px solid#FF7A59;
+color: #FF7A59;
 }
 
 #btn-login:hover {
-  background: #ffe0b3;
-  opacity: 0.5
+background: #ffe0b3;
+opacity: 0.5
 }
 
 #search-icon{
-  color: #00C1C2;
+color: #00C1C2;
 }
+
 
     /* header: MAIN-NAV */
 #main-nav {
